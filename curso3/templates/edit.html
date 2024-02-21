@@ -1,0 +1,39 @@
+{{define "Edit"}}
+
+{{template "Head"}}
+
+{{template "Menu"}}
+
+<div class="container">
+    <section class="card">
+        <form action="/update" method="post">
+            <div class="card-body">
+                <input type="hidden" name="id" value="{{.Id}}">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" value="{{.Nome}}">
+                </div>
+                <div class="mb-3">
+                    <label for="descricao" class="form-label">Descrição</label>
+                    <input type="text" class="form-control" id="descricao" name="descricao" value="{{.Descricao}}">
+                </div>
+                <div class="mb-3">
+                    <label for="preco" class="form-label">Preço</label>
+                    <input type="text" class="form-control" id="preco" name="preco" value="{{.Preco}}">
+                </div>
+                <div class="mb-3">
+                    <label for="quantidade" class="form-label">Quantidade</label>
+                    <input type="text" class="form-control" id="quantidade" name="quantidade" value="{{.Quantidade}}">
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="/" class="btn btn-secondary">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </section>
+</div>
+
+{{template "Footer"}}
+
+{{end}}

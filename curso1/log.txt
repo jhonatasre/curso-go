@@ -1,0 +1,9 @@
+14/02/2024 16:01:07 - https://www.alura.com.br - Online: true
+14/02/2024 16:01:08 - https://random-status-code.herokuapp.com - Online: false
+14/02/2024 16:01:09 - https://www.caelum.com.br - Online: true
+14/02/2024 16:01:14 - https://www.alura.com.br - Online: true
+14/02/2024 16:01:16 - https://random-status-code.herokuapp.com - Online: false
+14/02/2024 16:01:17 - https://www.caelum.com.br - Online: true
+14/02/2024 16:01:22 - https://www.alura.com.br - Online: true
+14/02/2024 16:01:24 - https://random-status-code.herokuapp.com - Online: false
+14/02/2024 16:01:25 - https://www.caelum.com.br - Online: true
